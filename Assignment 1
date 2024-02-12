@@ -1,0 +1,58 @@
+1.Write a python programme to findout biggest value among 2 numbers
+#Source Code
+p=int(input())
+q=int(input())
+if p>q:
+    print("p is bigger value")
+else:
+    print("q is bigger value")
+#Output
+12
+14
+q is bigger value
+
+2.Write a python programme to findout the given number is even or odd number
+# Souce Code
+n=int(input())
+if (n%2==0):
+    print("n is even number")
+else:
+    print("n is odd number")
+#Output
+8
+n is even number
+
+3.Write a python programme to accept student number,name and marks in 3 subjects.Calculate total and average.print the student result based on the below conditions.
+if avg>=75 result is Distinction
+if avg>=60 result is First Class
+if avg>=50 result is Second class
+otherwise result is Fail
+# Source Code
+studentnumber=int(input())
+name=str(input())
+s1=int(input("enter the marks in subject1:"))
+s2=int(input("enter the marks in subject2:"))
+s3=int(input("enter the marks in subject3:"))
+total=s1+s2+s3
+print("total",total)
+avg=total/3
+print("average",avg)
+if avg>=75:
+    print("Distinction")
+elif avg>=60:
+    print("First class")
+elif avg>=50:
+    print("Second class")
+elif avg>=35:
+    print("Third class")
+else:
+    Print("Result")
+#Output
+3
+Poojitha
+enter the marks in subject1:92
+enter the marks in subject2:96
+enter the marks in subject3:88
+total: 276
+average 92.0
+Distinction
